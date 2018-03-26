@@ -1,0 +1,75 @@
+﻿<Window x:Class="DoAn1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DoAn1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="528" Width="400" Background="white">
+
+
+
+
+
+
+
+
+    <Grid Margin="30">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="42*"/>
+            <RowDefinition Height="21*"/>
+            <RowDefinition Height="27*"/>
+            <RowDefinition Height="34*"/>
+            <RowDefinition Height="27*"/>
+            <RowDefinition Height="34*"/>
+            <RowDefinition Height="24*"/>
+            <RowDefinition Height="32*"/>
+            <RowDefinition Height="32*"/>
+            <RowDefinition Height="44*"/>
+            <RowDefinition Height="27*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="25*"/>
+
+
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" Content="ĐĂNG NHẬP" FontFamily="Arial" 
+               FontSize="25px" FontWeight="Bold" VerticalAlignment="Center" Height="44">
+        </Label>
+
+
+        <Label Grid.Row="2" Content="Tên đăng nhập" FontFamily="Arial" 
+               FontSize="12px" FontWeight="Bold" VerticalAlignment="Center" Height="24">
+        </Label>
+        <TextBox Grid.Row="3" BorderThickness="3px" BorderBrush="Black" Margin="5,0,0,0" Height="35"/>
+
+
+
+        <Label Grid.Row="4" Content="Mật khẩu" FontFamily="Arial" 
+               FontSize="12px" FontWeight="Bold" VerticalAlignment="Center" Height="24"  >
+        </Label>
+
+        <TextBox Grid.Row="5" BorderThickness="3px" BorderBrush="Black" Margin="5,0,0,0" Height="35">
+        </TextBox>
+
+        <CheckBox Grid.Row="7" FontFamily="Arial" FontSize="12px" FontWeight="Bold">Ghi nhớ tên đăng nhập và mật khẩu
+        </CheckBox>
+        <CheckBox Grid.Row="8" FontFamily="Arial" FontSize="12px" FontWeight="Bold">Tự động đăng nhập
+        </CheckBox>
+
+        <Button Grid.Row="9" Margin="100,0" Background="Black" Content="Đăng nhập" Foreground="white" FontFamily="Arial" FontSize="18px">
+        </Button>
+
+        <Label Grid.Row="11"  FontFamily="Arial" 
+               FontSize="12px" FontWeight="Bold" HorizontalAlignment="Center" Height="24">
+            <TextBlock Text="Tạo Tài khoản mới" TextDecorations="Underline" Cursor="Hand"></TextBlock>
+        </Label>
+
+        <Label Grid.Row="12" FontFamily="Arial" 
+               FontSize="12px" FontWeight="Bold" HorizontalAlignment="Center" Height="24" Margin="0,2,0,1" Cursor="Hand" >
+            <TextBlock Text="Quên mật khẩu" TextDecorations="Underline"></TextBlock>
+        </Label>
+
+
+    </Grid>
+</Window>
