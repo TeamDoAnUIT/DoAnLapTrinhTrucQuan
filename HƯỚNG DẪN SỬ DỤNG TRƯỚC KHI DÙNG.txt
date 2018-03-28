@@ -1,15 +1,6 @@
-﻿Đây là nơi ghi chú về cách chương trình thực hiện, chức năng, cách cài đặt v,v
+﻿Nhận task trong folder Tasks ứng với tên của mình.
+Các bạn push code của mình luôn nha và nhớ pull code về trước khi làm task mới.
+Link doc để review tasks: https://docs.google.com/spreadsheets/d/1fzVo4U-oiPlxnfwSdvPyaHxuHW8olIbQxKeIQtlexa4/edit#gid=0
+Link ggdrive: https://drive.google.com/drive/u/1/folders/10FE440x8Pg_KpM-FhAP5hma5ua7XYwd2?usp=sharing_eil&ts=5a964f53
 
-Hiện tại t đang làm form đăng nhập, tiếp đến sẽ là đăng kí, màn hình hiển thị chính, cách kết nối các máy, v.v..
-
-Chương trình cần 1 máy làm server cho các máy khác nên t cũng sẽ thực hiện chương trình cho máy server trước.
-
-Máy server là máy mà sẽ chứa các database liên quan đến chương trình, kiểm soát điều hành việc truy cập, trao đổi dữ liệu
-giữa các host.
-
-Cài đặt máy server thì chúng ta cần có database nên sẽ dùng SQLserver, chaỵ các query trong folder SQLquery đồng thời phải chỉnh 1 số thông số khác
-khi nào tụi m vấp t sẽ chỉ sau.
-
-form cũng được up tụi m coi qua cứ việc thắc mắc chỉnh sửa.
-
-Nên dần nghiên cứu các vấn đề về đồ án, thực hiện làm các chức năng các form và up lên để mọi người cùng tham khảo đóng góp.
+Các bạn có thắc mắc cứ vào group để hỏi.
