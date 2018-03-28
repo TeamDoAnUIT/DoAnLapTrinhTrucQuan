@@ -1,4 +1,5 @@
 ﻿Nhận task trong folder Tasks ứng với tên của mình.
+Các bạn push code của mình luôn nha và nhớ pull code về trước khi làm task mới.
 Link doc để review tasks: https://docs.google.com/spreadsheets/d/1fzVo4U-oiPlxnfwSdvPyaHxuHW8olIbQxKeIQtlexa4/edit#gid=0
 Link ggdrive: https://drive.google.com/drive/u/1/folders/10FE440x8Pg_KpM-FhAP5hma5ua7XYwd2?usp=sharing_eil&ts=5a964f53
 
