@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DangNhapGUI.Properties
+namespace ThietKeGiaoDienGUI.Properties
 {
 
 

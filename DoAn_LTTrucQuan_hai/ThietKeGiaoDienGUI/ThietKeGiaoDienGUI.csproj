@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E645C54E-3B4D-444F-9BF7-785ECFF62501}</ProjectGuid>
+    <ProjectGuid>{2FAB8E5F-4CC0-47C2-A5CD-68110686AFE6}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>DangNhapGUI</RootNamespace>
-    <AssemblyName>DangNhapGUI</AssemblyName>
+    <RootNamespace>ThietKeGiaoDienGUI</RootNamespace>
+    <AssemblyName>ThietKeGiaoDienGUI</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -54,7 +54,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="MainWindow.xaml">
+    <Page Include="DangKiTaiKhoanGUI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DangNhapGUI.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -62,8 +66,11 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
+    <Compile Include="DangKiTaiKhoanGUI.xaml.cs">
+      <DependentUpon>DangKiTaiKhoanGUI.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DangNhapGUI.xaml.cs">
+      <DependentUpon>DangNhapGUI.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DangNhapGUI", "DangNhapGUI\DangNhapGUI.csproj", "{E645C54E-3B4D-444F-9BF7-785ECFF62501}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThietKeGiaoDienGUI", "ThietKeGiaoDienGUI\ThietKeGiaoDienGUI.csproj", "{2FAB8E5F-4CC0-47C2-A5CD-68110686AFE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E645C54E-3B4D-444F-9BF7-785ECFF62501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E645C54E-3B4D-444F-9BF7-785ECFF62501}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E645C54E-3B4D-444F-9BF7-785ECFF62501}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E645C54E-3B4D-444F-9BF7-785ECFF62501}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FAB8E5F-4CC0-47C2-A5CD-68110686AFE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FAB8E5F-4CC0-47C2-A5CD-68110686AFE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FAB8E5F-4CC0-47C2-A5CD-68110686AFE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FAB8E5F-4CC0-47C2-A5CD-68110686AFE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {1D586ADE-66D0-4B1C-BE25-27BC048E08C2}
+		SolutionGuid = {D96AB61F-AF0A-4001-8E83-15F61F77346C}
 	EndGlobalSection
 EndGlobal

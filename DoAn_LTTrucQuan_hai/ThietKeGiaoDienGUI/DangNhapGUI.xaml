@@ -1,0 +1,33 @@
+﻿<Window x:Class="ThietKeGiaoDienGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ThietKeGiaoDienGUI"
+        mc:Ignorable="d"
+        Title="DangNhapGUI" Height="600" Width="500" ResizeMode="NoResize">
+    <Grid Margin="0,0,-0.4,0.6">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250*"/>
+            <ColumnDefinition Width="250*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="ĐĂNG NHẬP" HorizontalAlignment="Left" Margin="25,25,0,0" VerticalAlignment="Top"  
+               FontFamily="Arial" FontSize="40" FontWeight="Bold" Height="52" Width="255" Grid.ColumnSpan="2"></Label>
+        <Label Content="Tên đăng nhập" HorizontalAlignment="Left" Margin="25,90,0,0" VerticalAlignment="Top" FontFamily="Arial"
+               FontSize="20" FontWeight="Bold" Height="37" Width="160"></Label>
+        <TextBox Margin="25,125,25,400" BorderThickness="3" BorderBrush="Black" Grid.ColumnSpan="2"></TextBox>
+        <Label Content="Mật khẩu" HorizontalAlignment="Left" Margin="25,180,0,0" VerticalAlignment="Top" FontFamily="Arial"
+               FontSize="20" FontWeight="Bold" Height="36" Width="97"></Label>
+        <PasswordBox Margin="25,215,25,310" BorderThickness="3" BorderBrush="Black" Grid.ColumnSpan="2"/>
+        <CheckBox Content="Ghi nhớ tên đăng nhập và mật khẩu" HorizontalAlignment="Left" Margin="40,281,0,0" VerticalAlignment="Top" FontFamily="Arial" 
+                  FontWeight="Bold" Grid.ColumnSpan="2" Height="20" Width="299" FontSize="16" ></CheckBox>
+        <CheckBox Content="Tự động đăng nhập" HorizontalAlignment="Left" Margin="40,305,0,0" VerticalAlignment="Top" FontFamily="Arial" 
+                  FontWeight="Bold" Height="20" Width="173" FontSize="16"/>
+        <Button Content="Đăng nhập" Margin="140,355,140,160" Grid.ColumnSpan="2" FontSize="30" FontFamily="Arial" Background="Black"
+                Foreground="White"></Button>
+        <TextBlock HorizontalAlignment="Left" Margin="177,450,0,0" TextWrapping="Wrap" Text="Tạo tài khoản mới" VerticalAlignment="Top" Width="140"
+               FontFamily="Arial" FontWeight="Bold" Grid.ColumnSpan="2" FontSize="16" TextDecorations="Underline"></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="183,475,0,0" TextWrapping="Wrap" Text="Quên mật khẩu?" VerticalAlignment="Top" Width="127"
+               FontFamily="Arial" FontWeight="Bold" Grid.ColumnSpan="2" FontSize="16" TextDecorations="Underline"></TextBlock>
+    </Grid>
+</Window>
